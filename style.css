@@ -109,7 +109,7 @@ body {
   margin: 0;
   padding: 0;
   width: 100vw;
-  /* overflow-x: hidden; */
+  overflow-x: hidden;
 }
 [tabindex="-1"]:focus {
   outline: 0 !important;
@@ -489,10 +489,15 @@ body {
 .hero-content .entry-header h2 {
   padding: 50px;
   font-family: mountains;
-  font-size: 120px;
+  font-size: 5rem !important;
   background: -webkit-linear-gradient(#00d0ff, #25ffbf);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+@media (max-width: 480px) {
+  .hero-content .entry-header h2 {
+    font-size: 40px !important;
+  }
 }
 .hero-content .entry-header .entry-meta-date {
   position: absolute;
