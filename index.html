@@ -6,9 +6,14 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
 <link rel="stylesheet" href="style.css" />
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/1.2.0/tailwind.min.css'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<!-- <link rel="stylesheet" href="bootstrap.min.css+owl.carousel.min.css+magnific-popup.css+font-awesome.min.css+themify-icons.css+nice-select.css+flaticon.css+gijgo.css+animate.css+slicknav.css.pagespeed.cc.-yP2imJLpn.css"> -->
+<!-- <link rel="stylesheet" href="A.bootstrap.min.css%2bowl.carousel.min.css%2bmagnific-popup.css%2bfont-awesome.min.css%2bthemify-icons.css%2bgijgo.css%2bnice-select.css%2banimate.css%2bflaticon.css%2bslicknav.css%2cMcc.uoV2inFZw3.css.pagespeed.cf.M" /> -->
+<link rel="stylesheet" href="A.style.css.pagespeed.cf.a5Og8aBLl6.css">
 </head>
 <body>
-  <header class="site-navbar py-3" role="banner" style="position: fixed;">
+  <header class="site-navbar py-3" role="banner" style="position: fixed;" style: "background ">
 
     <div class="site-wrap">
     <div class="site-mobile-menu">
@@ -22,16 +27,17 @@
     <div class="container-fluid">
     <div class="row align-items-center">
     <div class="col-11 col-xl-2">
-    <!-- <h1 class="mb-0"><a href="index.html" class="text-white h2 mb-0" style="margin-left:40px;">IO<span class="text-primary">SD</span> </a></h1> -->
+    
+      <img src="images/IOSD_blue.png" style ="width: 200px;" alt="">
     </div>
     <div class="col-12 col-md-10 d-none d-xl-block">
     <nav class="site-navigation position-relative text-right" role="navigation">
     <ul class="site-menu js-clone-nav mx-auto d-none d-lg-block">
     <li class="active"><a href="index.html">Home</a></li>
     <li><a href="#about">About</a></li>
-    <li><a href="speakers.html">Speakers</a></li>
-    <li><a href="news.html">News</a></li>
-    <li><a href="contact.html">Contacts</a></li>
+    <li><a href="#tracks">Tracks</a></li>
+    <li><a href="#Schedule">Shedule</a></li>
+    <li><a href="#prizes">Prizes</a></li>
     <li class="cta"><a href="buy-tickets.html">Register Now</a></li>
     </ul>
     </nav>
@@ -44,13 +50,13 @@
     <div class="hero-content">
       <div class="container">
       <div class="row">
+
       <div class="col-12 offset-lg-2 col-lg-2">
       <div class="entry-header">
-          <img src="images/IOSD_blue.png" style ="width: 200px;" alt="">
       <h2>Winterlympics</h2>
       
       </div>
-      <div class="countdown flex flex-wrap justify-content col-12 offset-lg-2 col-lg-2" data-date="2022/01/08">
+      <div class="countdown flex flex-wrap justify-content col-12 offset-lg-2 col-lg-2" data-date="2022/01/07">
       <div class="countdown-holder">
       <div class="dday"></div>
       <label>Days</label>
@@ -70,11 +76,13 @@
       </div>
       </div>
       </div>
-      
+      <div class="wrapper-buttons" style="display: flex; justify-content: flex-end;">
+        <a href="https://discord.gg/b6VNvuDk"><button class="blue-button"><i class="fab fa-discord"></i>&nbspJoin Server</button></a>
       </div>
       </div>
+      </div>
       
-<div class="site-section site-hero inner" id="about">
+<div class="site-section site-hero inner ">
 <div class="container">
 <div class="row align-items-center">
 <div class="col-md-10">
@@ -84,54 +92,24 @@
 </div>
 </div>
 </div>
-<div class="site-section">
+<div class="site-section" id="about">
 <div class="container">
-<div class="row mb-5">
-<div class="col-lg-4 ">
-<div class="site-section-heading" data-aos="fade-up" data-aos-delay="100">
-<h2>IOSD Winter Hackathon is all about "COMPETE, INNOVATE AND EMPOWER" in this Winter Break !!!</h2>
-</div>
-</div>
-<div class="col-lg-5 mt-5 pl-lg-5" data-aos="fade-up" data-aos-delay="200">
-<p>
-</p>
-<p>voluptatem nulla repellendus enim perspiciatis reiciendis iusto assumenda neque quaerat quidem architecto.</p>
-</div>
-</div>
-<div class="row mb-5">
-<div class="col-12" data-aos="fade-up" data-aos-delay="300">
-<script data-pagespeed-no-defer>//<![CDATA[
-(function(){for(var g="function"==typeof Object.defineProperties?Object.defineProperty:function(b,c,a){if(a.get||a.set)throw new TypeError("ES3 does not support getters and setters.");b!=Array.prototype&&b!=Object.prototype&&(b[c]=a.value)},h="undefined"!=typeof window&&window===this?this:"undefined"!=typeof global&&null!=global?global:this,k=["String","prototype","repeat"],l=0;l<k.length-1;l++){var m=k[l];m in h||(h[m]={});h=h[m]}
-var n=k[k.length-1],p=h[n],q=p?p:function(b){var c;if(null==this)throw new TypeError("The 'this' value for String.prototype.repeat must not be null or undefined");c=this+"";if(0>b||1342177279<b)throw new RangeError("Invalid count value");b|=0;for(var a="";b;)if(b&1&&(a+=c),b>>>=1)c+=c;return a};q!=p&&null!=q&&g(h,n,{configurable:!0,writable:!0,value:q});var t=this;
-function u(b,c){var a=b.split("."),d=t;a[0]in d||!d.execScript||d.execScript("var "+a[0]);for(var e;a.length&&(e=a.shift());)a.length||void 0===c?d[e]?d=d[e]:d=d[e]={}:d[e]=c};function v(b){var c=b.length;if(0<c){for(var a=Array(c),d=0;d<c;d++)a[d]=b[d];return a}return[]};function w(b){var c=window;if(c.addEventListener)c.addEventListener("load",b,!1);else if(c.attachEvent)c.attachEvent("onload",b);else{var a=c.onload;c.onload=function(){b.call(this);a&&a.call(this)}}};var x;function y(b,c,a,d,e){this.h=b;this.j=c;this.l=a;this.f=e;this.g={height:window.innerHeight||document.documentElement.clientHeight||document.body.clientHeight,width:window.innerWidth||document.documentElement.clientWidth||document.body.clientWidth};this.i=d;this.b={};this.a=[];this.c={}}
-function z(b,c){var a,d,e=c.getAttribute("data-pagespeed-url-hash");if(a=e&&!(e in b.c))if(0>=c.offsetWidth&&0>=c.offsetHeight)a=!1;else{d=c.getBoundingClientRect();var f=document.body;a=d.top+("pageYOffset"in window?window.pageYOffset:(document.documentElement||f.parentNode||f).scrollTop);d=d.left+("pageXOffset"in window?window.pageXOffset:(document.documentElement||f.parentNode||f).scrollLeft);f=a.toString()+","+d;b.b.hasOwnProperty(f)?a=!1:(b.b[f]=!0,a=a<=b.g.height&&d<=b.g.width)}a&&(b.a.push(e),
-b.c[e]=!0)}y.prototype.checkImageForCriticality=function(b){b.getBoundingClientRect&&z(this,b)};u("pagespeed.CriticalImages.checkImageForCriticality",function(b){x.checkImageForCriticality(b)});u("pagespeed.CriticalImages.checkCriticalImages",function(){A(x)});
-function A(b){b.b={};for(var c=["IMG","INPUT"],a=[],d=0;d<c.length;++d)a=a.concat(v(document.getElementsByTagName(c[d])));if(a.length&&a[0].getBoundingClientRect){for(d=0;c=a[d];++d)z(b,c);a="oh="+b.l;b.f&&(a+="&n="+b.f);if(c=!!b.a.length)for(a+="&ci="+encodeURIComponent(b.a[0]),d=1;d<b.a.length;++d){var e=","+encodeURIComponent(b.a[d]);131072>=a.length+e.length&&(a+=e)}b.i&&(e="&rd="+encodeURIComponent(JSON.stringify(B())),131072>=a.length+e.length&&(a+=e),c=!0);C=a;if(c){d=b.h;b=b.j;var f;if(window.XMLHttpRequest)f=
-new XMLHttpRequest;else if(window.ActiveXObject)try{f=new ActiveXObject("Msxml2.XMLHTTP")}catch(r){try{f=new ActiveXObject("Microsoft.XMLHTTP")}catch(D){}}f&&(f.open("POST",d+(-1==d.indexOf("?")?"?":"&")+"url="+encodeURIComponent(b)),f.setRequestHeader("Content-Type","application/x-www-form-urlencoded"),f.send(a))}}}
-function B(){var b={},c;c=document.getElementsByTagName("IMG");if(!c.length)return{};var a=c[0];if(!("naturalWidth"in a&&"naturalHeight"in a))return{};for(var d=0;a=c[d];++d){var e=a.getAttribute("data-pagespeed-url-hash");e&&(!(e in b)&&0<a.width&&0<a.height&&0<a.naturalWidth&&0<a.naturalHeight||e in b&&a.width>=b[e].o&&a.height>=b[e].m)&&(b[e]={rw:a.width,rh:a.height,ow:a.naturalWidth,oh:a.naturalHeight})}return b}var C="";u("pagespeed.CriticalImages.getBeaconData",function(){return C});
-u("pagespeed.CriticalImages.Run",function(b,c,a,d,e,f){var r=new y(b,c,a,e,f);x=r;d&&w(function(){window.setTimeout(function(){A(r)},0)})});})();
 
-pagespeed.CriticalImages.Run('/mod_pagespeed_beacon','https://preview.colorlib.com/theme/workshop/about.html','-ilGEe-FWC',true,false,'lLYqHDBHhao');
-//]]></script><img src="images/xhero_1.jpg.pagespeed.ic.XOHfFEMWSl.jpg" alt="Image" class="img-fluid" data-pagespeed-url-hash="2331998841" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
-</div>
+<div class="row mb-5">
+
 </div>
 <div class="row">
-<div class="col-md-4" data-aos="fade-up" data-aos-delay="400"><span class="text-primary">The Conference</span></div>
+<div class="col-md-4" data-aos="fade-up" data-aos-delay="400"><span class="text-primary">"COMPETE, INNOVATE AND EMPOWER" in this Winter Break !!!</span></div>
 <div class="col-md-6" data-aos="fade-up" data-aos-delay="500">
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex et rem ea, voluptatem harum autem reprehenderit dolor, asperiores voluptate, odio expedita modi quam eum suscipit, ut illum consequuntur atque. Nisi.</p>
-<p>Cupiditate nostrum aliquam rem et, blanditiis iusto ipsa ab aspernatur tenetur ad! Dicta perspiciatis, laborum at natus hic nulla laboriosam, suscipit iusto quas animi, numquam sunt. Vel nemo aliquam asperiores.</p>
-<p class="mb-5">Aspernatur sequi eum debitis illum inventore. Labore libero, minus tenetur, mollitia eaque officiis molestiae necessitatibus fugit at architecto eum recusandae nam, saepe aspernatur unde alias tempora ipsum. Neque, delectus tenetur.</p>
-<div class="d-flex coordinator align-items-center">
-<div class="mr-4">
-<img src="images/xperson_2.jpg.pagespeed.ic.nYDVy_ZZ-q.jpg" alt="Image" class="img-fluid" data-pagespeed-url-hash="3824774953" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
-</div>
-<span>By <span class="text-white">Luke Jones</span> <br> Conference Coordinator</span>
+<p>Hacking is the process of building things that you've always desired but haven't seen anybody else do. It's coming up with a fantastic idea and working on it tirelessly. It is to fail, fail again and fail better. Experiment with new things while also learning. It is to collaborate, work together, and build innovative things. It is to be a better programmer.</p>
+<p></p>
+<p>Any skill is honed when it is challenged. This hackathon aims to encourage this skill in every student. The upcoming winter break is the best opportunity anyone will ever get to instil within them this skill through competing with their peers and contemporaries. New challenges and zeal to find their solutions will help improve and develop the evergreen hacking skill among everyone who participates in it.</p>
+
 </div>
 </div>
 </div>
 </div>
-</div>
-<div class="site-section">
+<!-- <div class="site-section">
 <div class="container">
 <div class="row mb-5 justify-content-center">
 <div class="col-lg-4 mb-5">
@@ -144,7 +122,7 @@ pagespeed.CriticalImages.Run('/mod_pagespeed_beacon','https://preview.colorlib.c
 <div class="col-md-6 col-lg-4 mb-5 mb-lg-5" data-aos="fade-up" data-aos-delay="100">
 <div class="testimony text-center">
 <figure>
-<img src="images/xperson_1.jpg.pagespeed.ic.qRKdJT--2I.jpg" alt="Image" class="img-fluid" data-pagespeed-url-hash="3530275032" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+<img src="images/xperson_1.jpg.pagespeed.ic.qRKdJT--2I.jpg" alt="Image" class="img-fluid" data-pagespeed-url-hash="3530275032" ;">
 </figure>
 <blockquote>
 <p class="author mb-0">Emely Peters</p>
@@ -156,7 +134,7 @@ pagespeed.CriticalImages.Run('/mod_pagespeed_beacon','https://preview.colorlib.c
 <div class="col-md-6 col-lg-4 mb-5 mb-lg-5" data-aos="fade-up" data-aos-delay="200">
 <div class="testimony text-center">
 <figure>
-<img src="images/xperson_2.jpg.pagespeed.ic.nYDVy_ZZ-q.jpg" alt="Image" class="img-fluid" data-pagespeed-url-hash="3824774953" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+<img src="images/xperson_2.jpg.pagespeed.ic.nYDVy_ZZ-q.jpg" alt="Image" class="img-fluid" data-pagespeed-url-hash="3824774953" ;">
 </figure>
 <blockquote>
 <p class="author mb-0">Alex Anchors</p>
@@ -168,7 +146,7 @@ pagespeed.CriticalImages.Run('/mod_pagespeed_beacon','https://preview.colorlib.c
 <div class="col-md-6 col-lg-4 mb-5 mb-lg-5" data-aos="fade-up" data-aos-delay="300">
 <div class="testimony text-center">
 <figure>
-<img src="images/xperson_3.jpg.pagespeed.ic.ITyjtCvaOl.jpg" alt="Image" class="img-fluid" data-pagespeed-url-hash="4119274874" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+<img src="images/xperson_3.jpg.pagespeed.ic.ITyjtCvaOl.jpg" alt="Image" class="img-fluid" data-pagespeed-url-hash="4119274874" ;">
 </figure>
 <blockquote>
 <p class="author mb-0">Aaron Thomas</p>
@@ -180,7 +158,7 @@ pagespeed.CriticalImages.Run('/mod_pagespeed_beacon','https://preview.colorlib.c
 <div class="col-md-6 col-lg-4 mb-5 mb-lg-5" data-aos="fade-up" data-aos-delay="400">
 <div class="testimony text-center">
 <figure>
-<img src="images/xperson_1.jpg.pagespeed.ic.qRKdJT--2I.jpg" alt="Image" class="img-fluid" data-pagespeed-url-hash="3530275032" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+<img src="images/xperson_1.jpg.pagespeed.ic.qRKdJT--2I.jpg" alt="Image" class="img-fluid" data-pagespeed-url-hash="3530275032" ;">
 </figure>
 <blockquote>
 <p class="author mb-0">Emely Peters</p>
@@ -192,7 +170,7 @@ pagespeed.CriticalImages.Run('/mod_pagespeed_beacon','https://preview.colorlib.c
 <div class="col-md-6 col-lg-4 mb-5 mb-lg-5" data-aos="fade-up" data-aos-delay="500">
 <div class="testimony text-center">
 <figure>
-<img src="images/xperson_2.jpg.pagespeed.ic.nYDVy_ZZ-q.jpg" alt="Image" class="img-fluid" data-pagespeed-url-hash="3824774953" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+<img src="images/xperson_2.jpg.pagespeed.ic.nYDVy_ZZ-q.jpg" alt="Image" class="img-fluid" data-pagespeed-url-hash="3824774953" ;">
 </figure>
 <blockquote>
 <p class="author mb-0">Alex Anchors</p>
@@ -204,7 +182,7 @@ pagespeed.CriticalImages.Run('/mod_pagespeed_beacon','https://preview.colorlib.c
 <div class="col-md-6 col-lg-4 mb-5 mb-lg-5" data-aos="fade-up" data-aos-delay="600">
 <div class="testimony text-center">
 <figure>
-<img src="images/xperson_3.jpg.pagespeed.ic.ITyjtCvaOl.jpg" alt="Image" class="img-fluid" data-pagespeed-url-hash="4119274874" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+<img src="images/xperson_3.jpg.pagespeed.ic.ITyjtCvaOl.jpg" alt="Image" class="img-fluid" data-pagespeed-url-hash="4119274874" ;">
 </figure>
 <blockquote>
 <p class="author mb-0">Aaron Thomas</p>
@@ -215,75 +193,633 @@ pagespeed.CriticalImages.Run('/mod_pagespeed_beacon','https://preview.colorlib.c
 </div>
 </div>
 </div>
-</div>
-<div class="site-section">
-<div class="container">
-<div class="row mb-5">
-<div class="col-lg-4 ">
-<div class="site-section-heading" data-aos="fade-up">
-<h2>Sponsors</h2>
-</div>
-</div>
-<div class="col-lg-6 mt-5 pl-lg-5" data-aos="fade-up" data-aos-delay="100">
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus error deleniti dolores necessitatibus eligendi. Nesciunt repellendus ab voluptatibus.</p>
-</div>
-</div>
-<div class="row">
-<div class="col-md-6 col-lg-4 mb-5 mb-lg-0" data-aos="fade" data-aos-delay="200">
-<img src="images/xlogo_1.png.pagespeed.ic.yQ2YbbKRBU.png" alt="Image" class="img-fluid" data-pagespeed-url-hash="3014199558" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
-</div>
-<div class="col-md-6 col-lg-4 mb-5 mb-lg-0" data-aos="fade" data-aos-delay="300">
-<img src="images/xlogo_2.png.pagespeed.ic.sqWIdD7Z5v.png" alt="Image" class="img-fluid" data-pagespeed-url-hash="3308699479" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
-</div>
-<div class="col-md-6 col-lg-4 mb-5 mb-lg-0" data-aos="fade" data-aos-delay="400">
-<img src="images/xlogo_3.png.pagespeed.ic.b0VbvTy5f0.png" alt="Image" class="img-fluid" data-pagespeed-url-hash="3603199400" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
-</div>
-<div class="col-md-6 col-lg-4 mb-5 mb-lg-0" data-aos="fade" data-aos-delay="500">
-<img src="images/xlogo_4.png.pagespeed.ic.O4YjHxw4yb.png" alt="Image" class="img-fluid" data-pagespeed-url-hash="3897699321" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
-</div>
-<div class="col-md-6 col-lg-4 mb-5 mb-lg-0" data-aos="fade" data-aos-delay="600">
-<img src="images/xlogo_5.png.pagespeed.ic.M_7j9xsOWS.png" alt="Image" class="img-fluid" data-pagespeed-url-hash="4192199242" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
-</div>
-<div class="col-md-6 col-lg-4 mb-5 mb-lg-0" data-aos="fade" data-aos-delay="700">
-<img src="images/xlogo_6.png.pagespeed.ic.s_Yn7-ltcY.png" alt="Image" class="img-fluid" data-pagespeed-url-hash="191731867" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
-</div>
-</div>
-</div>
-</div>
+</div> -->
+
+
+  <!--[if lte IE 9]>
+    <p class="browserupgrade">
+      You are using an <strong>outdated</strong> browser. Please
+      <a href="https://browsehappy.com/">upgrade your browser</a> to improve
+      your experience and security.
+    </p>
+  <![endif]-->
+  <div class="performar_area black_bg" id="tracks">
+    <div class="container">
+      <div class="site-section site-hero inner">
+        <div class="container">
+        <div class="row align-items-center">
+        <div class="col-md-10">
+        <h1 class="d-block mb-4" data-aos="fade-up" data-aos-delay="100">Tracks</h1>
+        </div>
+        </div>
+        </div>
+        </div>
+      <div class="row justify-content-center">
+        
+        <div class="col-lg-8">
+          <div class="row">
+            <div class="col-lg-6 col-md-6">
+              <div
+                class="single_performer wow fadeInUp"
+                data-wow-duration="1s"
+                data-wow-delay=".3s"
+                data-aos="fade-up" data-aos-delay="100"
+              >
+                <div data-tilt class="thumb">
+                  <img
+                    src="https://images.unsplash.com/photo-1584467735871-8e85353a8413?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8aGVhbHRoY2FyZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60"
+                    alt="" style="max-height: 450px;"
+                  />
+                </div>
+                <div class="performer_heading">
+                  <h4>Healthcare</h4>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-6">
+              <div
+                class="single_performer wow fadeInUp"
+                data-wow-duration="1s"
+                data-wow-delay=".4s"
+                data-aos="fade-up" data-aos-delay="100"
+              >
+                <div data-tilt class="thumb">
+                  <img
+                    src="https://images.unsplash.com/photo-1532012197267-da84d127e765?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8ZWR1Y2F0aW9ufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60"
+                    alt="" style="max-height: 450px;"
+                  />
+                </div>
+                <div class="performer_heading">
+                  <h4>Education</h4>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-6">
+              <div
+                class="single_performer wow fadeInUp"
+                data-wow-duration="1s"
+                data-wow-delay=".5s"
+                data-aos="fade-up" data-aos-delay="100"
+              >
+                <div data-tilt class="thumb">
+                  <img
+                    src="https://images.unsplash.com/photo-1516192518150-0d8fee5425e3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8YXJ0aWZpY2lhbCUyMGludGVsbGlnZW5jZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60"
+                    alt="" style="max-height: 450px;"
+                  />
+                </div>
+                <div class="performer_heading">
+                  <h4>AI/ML</h4>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-6">
+              <div
+                class="single_performer wow fadeInUp"
+                data-wow-duration="1s"
+                data-wow-delay=".6s"
+                data-aos="fade-up" data-aos-delay="100"
+              >
+                <div data-tilt class="thumb">
+                  <img
+                    src="https://images.unsplash.com/photo-1625806786037-2af608423424?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fGJsb2NrY2hhaW58ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60"
+                    alt="" style="max-height: 450px;"
+                  />
+                </div>
+                <div class="performer_heading">
+                  <h4>Blockchain, Cryptography</h4>
+                </div>
+              </div>
+              
+            </div>
+            <div class="col-lg-6 col-md-6">
+              <div
+                class="single_performer wow fadeInUp"
+                data-wow-duration="1s"
+                data-wow-delay=".6s"
+                data-aos="fade-up" data-aos-delay="100"
+              >
+                <div data-tilt class="thumb">
+                  <img
+                    src="https://images.unsplash.com/photo-1613918514536-2071b86612c4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fGN5YmVyJTIwc2VjdXJpdHl8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60"
+                    alt="" style="max-height: 450px;"
+                  />
+                </div>
+                <div class="performer_heading">
+                  <h4>Cybersecurity</h4>
+                </div>
+              </div>
+              
+            </div>
+            <div class="col-lg-6 col-md-6">
+              <div
+                class="single_performer wow fadeInUp"
+                data-wow-duration="1s"
+                data-wow-delay=".6s"
+                data-aos="fade-up" data-aos-delay="100"
+              >
+                <div data-tilt class="thumb">
+                  <img
+                    src="https://images.unsplash.com/photo-1547658719-da2b51169166?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8d2ViJTIwZGV2ZWxvcG1lbnR8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60"
+                    alt="" style="max-height: 450px;"
+                  />
+                </div>
+                <div class="performer_heading">
+                  <h4>Full-Stack Devlopment</h4>
+                </div>
+              </div>
+              
+            </div>
+            <div class="col-lg-6 col-md-6">
+              <div
+                class="single_performer wow fadeInUp"
+                data-wow-duration="1s"
+                data-wow-delay=".6s"
+                data-aos="fade-up" data-aos-delay="100"
+              >
+                <div data-tilt class="thumb">
+                  <img
+                    src="https://images.unsplash.com/photo-1567177662154-dfeb4c93b6ae?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aW5ub3ZhdGlvbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60"
+                    alt="" 
+                  />
+                </div>
+                <div class="performer_heading">
+                  <h4>Open Innovative</h4>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="site-section site-hero inner">
+    <div class="container">
+    <div class="row align-items-center" id="prizes">
+    <div class="col-md-10">
+    <!-- <span class="d-block mb-3 caption" data-aos="fade-up">Our</span> -->
+    <h1 class="d-block mb-4" data-aos="fade-up" data-aos-delay="100">Prizes</h1>
+    </div>
+    </div>
+    </div>
+    </div>
+    <div class="site-section-heading" data-aos="fade-up">
+      <h2 class="text-center">TO BE DECIDED</h2>
+      </div>
+  <div class="program_details_area detials_bg_1 overlay2" id="Schedule">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div
+            class="section_title text-center mb-80 wow fadeInRight"
+            data-wow-duration="1s"
+            data-wow-delay=".3s"
+            data-aos="fade-up" data-aos-delay="100"
+          >
+            <h3>Program Details</h3>
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <div class="program_detail_wrap">
+            <div class="single_propram">
+              <div class="inner_wrap">
+                <div class="circle_img"></div>
+                <div class="porgram_top">
+                  <span
+                    class="wow fadeInLeft"
+                    data-wow-duration="1s"
+                    data-wow-delay=".3s"
+                    data-aos="fade-up" data-aos-delay="100"
+                    >3.00-4.00pm</span
+                  >
+                  <h4
+                    class="wow fadeInUp"
+                    data-wow-duration="1s"
+                    data-wow-delay=".4s"
+                  >
+                    7 Jan 2022
+                  </h4>
+                </div>
+              
+                <h4
+                  class="wow fadeInUp"
+                  data-wow-duration="1s"
+                  data-aos="fade-up" data-aos-delay="100"
+                  data-wow-delay=".6s"
+                >
+                Orientation
+                </h4>
+              </div>
+            </div>
+            <div class="single_propram">
+              <div class="inner_wrap">
+                <div class="circle_img"></div>
+                <div class="porgram_top">
+                  <span
+                    class="wow fadeInRight"
+                    data-wow-duration="1s"
+                    data-wow-delay=".3s"
+                    data-aos="fade-up" data-aos-delay="100"
+                    >4.00pm</span
+                  >
+                  <h4
+                    class="wow fadeInRight"
+                    data-wow-duration="1s"
+                    data-wow-delay=".4s"
+                    data-aos="fade-up" data-aos-delay="100"
+                  >
+                    7 Jan 2022
+                  </h4>
+                </div>
+               
+                <h4
+                  class="wow fadeInRight"
+                  data-wow-duration="1s"
+                  data-wow-delay=".6s"
+                  data-aos="fade-up" data-aos-delay="100"
+                >
+                Coding Phase Begin
+                </h4>
+              </div>
+            </div>
+            <div class="single_propram">
+              <div class="inner_wrap">
+                <div class="circle_img"></div>
+                <div class="porgram_top">
+                  <span
+                    class="wow fadeInLeft"
+                    data-wow-duration="1s"
+                    data-wow-delay=".3s"
+                    data-aos="fade-up" data-aos-delay="100"
+                    >12.00-2.00pm</span
+                  >
+                  <h4
+                    class="wow fadeInUp"
+                    data-wow-duration="1s"
+                    data-wow-delay=".4s"
+                    data-aos="fade-up" data-aos-delay="100"
+                  >
+                    8 Jan 2022
+                  </h4>
+                </div>
+                <div
+                  class="thumb wow fadeInUp"
+                  data-wow-duration="1s"
+                  data-wow-delay=".5s"
+                  data-aos="fade-up" data-aos-delay="100"
+                >
+                  
+                </div>
+                <h4
+                  class="wow fadeInUp"
+                  data-wow-duration="1s"
+                  data-wow-delay=".6s"
+                >
+                CP Contest 1 
+                </h4>
+              </div>
+            </div>
+            <div class="single_propram">
+              <div class="inner_wrap">
+                <div class="circle_img"></div>
+                <div class="porgram_top">
+                  <span
+                    class="wow fadeInRight"
+                    data-wow-duration="1s"
+                    data-wow-delay=".3s"
+                    >4.00-6.00pm</span
+                  >
+                  <h4
+                    class="wow fadeInRight"
+                    data-wow-duration="1s"
+                    data-wow-delay=".4s"
+                    data-aos="fade-up" data-aos-delay="100"
+                  >
+                    8 Jan 2022
+                  </h4>
+                </div>
+                <div
+                  class="thumb wow fadeInRight"
+                  data-wow-duration="1s"
+                  data-wow-delay=".5s"
+                  data-aos="fade-up" data-aos-delay="100"
+                >
+                
+                </div>
+                <h4
+                  class="wow fadeInRight"
+                  data-wow-duration="1s"
+                  data-wow-delay=".6s"
+                  data-aos="fade-up" data-aos-delay="100"
+                >
+                CP Contest 2
+                </h4>
+              </div>
+            </div>
+            <div class="single_propram">
+              <div class="inner_wrap">
+                <div class="circle_img"></div>
+                <div class="porgram_top">
+                  <span
+                    class="wow fadeInRight"
+                    data-wow-duration="1s"
+                    data-wow-delay=".3s"
+                    >4.00pm</span
+                  >
+                  <h4
+                    class="wow fadeInRight"
+                    data-wow-duration="1s"
+                    data-wow-delay=".4s"
+                    data-aos="fade-up" data-aos-delay="100"
+                  >
+                    9 Jan 2022
+                  </h4>
+                </div>
+                <div
+                  class="thumb wow fadeInRight"
+                  data-wow-duration="1s"
+                  data-wow-delay=".5s"
+                  data-aos="fade-up" data-aos-delay="100"
+                >
+                
+                </div>
+                <h4
+                  class="wow fadeInRight"
+                  data-wow-duration="1s"
+                  data-wow-delay=".6s"
+                  data-aos="fade-up" data-aos-delay="100"
+                >
+                Coding Phase Ends
+                </h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- <div class="site-section site-hero inner">
+    <div class="container">
+    <div class="row align-items-center">
+    <div class="col-md-10">
+    <h1 class="d-block mb-4" data-aos="fade-up" data-aos-delay="100">Sponsors</h1>
+    </div>
+    </div>
+    </div>
+    </div> -->
+  <!-- <div class="site-section">
+    <div class="container">
+   
+    <div class="row">
+    <div class="col-md-6 col-lg-4 mb-5 mb-lg-0" data-aos="fade" data-aos-delay="200">
+    <img src="images/xlogo_1.png.pagespeed.ic.yQ2YbbKRBU.png" alt="Image" class="img-fluid" data-pagespeed-url-hash="3014199558" ;">
+    </div>
+    <div class="col-md-6 col-lg-4 mb-5 mb-lg-0" data-aos="fade" data-aos-delay="300">
+    <img src="images/xlogo_2.png.pagespeed.ic.sqWIdD7Z5v.png" alt="Image" class="img-fluid" data-pagespeed-url-hash="3308699479" ;">
+    </div>
+    <div class="col-md-6 col-lg-4 mb-5 mb-lg-0" data-aos="fade" data-aos-delay="400">
+    <img src="images/xlogo_3.png.pagespeed.ic.b0VbvTy5f0.png" alt="Image" class="img-fluid" data-pagespeed-url-hash="3603199400" ;">
+    </div>
+    <div class="col-md-6 col-lg-4 mb-5 mb-lg-0" data-aos="fade" data-aos-delay="500">
+    <img src="images/xlogo_4.png.pagespeed.ic.O4YjHxw4yb.png" alt="Image" class="img-fluid" data-pagespeed-url-hash="3897699321" ;">
+    </div>
+    <div class="col-md-6 col-lg-4 mb-5 mb-lg-0" data-aos="fade" data-aos-delay="600">
+    <img src="images/xlogo_5.png.pagespeed.ic.M_7j9xsOWS.png" alt="Image" class="img-fluid" data-pagespeed-url-hash="4192199242" ;">
+    </div>
+    <div class="col-md-6 col-lg-4 mb-5 mb-lg-0" data-aos="fade" data-aos-delay="700">
+    <img src="images/xlogo_6.png.pagespeed.ic.s_Yn7-ltcY.png" alt="Image" class="img-fluid" data-pagespeed-url-hash="191731867" ;">
+    </div>
+    </div>
+    </div>
+    </div>
+     -->
+
+  <div class="container my-5">
+    <div class="site-section site-hero inner">
+      <div class="container">
+      <div class="row align-items-center">
+      <div class="col-md-10">
+      <span class="d-block mb-3 caption" data-aos="fade-up">Questions</span>
+      <h1 class="d-block mb-4" data-aos="fade-up" data-aos-delay="100">Frequently Asked Questions</h1>
+      </div>
+      </div>
+      </div>
+      </div>
+
+      
+      <div class="">
+      
+        <div>
+            <div>
+                <dl class="mt-8 mx-auto max-w-screen-sm lg:max-w-screen-lg flex flex-col lg:flex-row lg:flex-wrap">
+                    <div class="lg:w-1/2">
+                        <div class="question-and-answer select-none cursor-pointer border-2 mx-8 my-3 px-6 py-4 rounded-lg text-sm group">
+                            <dt class="question">
+                                <div class="flex justify-between">
+                                    <div class="font-semibold">
+                                      How big can a team be?
+                                    </div>
+                                    <div>
+                                        <svg fill=currentColor class="question-chevron group-hover:bg-gray-500 h-5 block text-indigo-800 bg-gray-400 rounded-full p-1" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                            <g stroke="currentColor" stroke-width="1" fill=currentColor fill-rule="evenodd">
+                                            <g>
+                                            <polygon points="9.29289322 12.9497475 10 13.6568542 15.6568542 8 14.2426407 6.58578644 10 10.8284271 5.75735931 6.58578644 4.34314575 8"></polygon>
+                                            </g>
+                                            </g>
+                                        </svg>
+                                        <svg fill=currentColor class="question-chevron hidden group-hover:bg-gray-500 h-5 block  bg-gray-400 rounded-full p-1" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                            <g stroke="currentColor" stroke-width="1" fill=currentColor fill-rule="evenodd">
+                                            <g>
+                                            <polygon points="10.7071068 7.05025253 10 6.34314575 4.34314575 12 5.75735931 13.4142136 10 9.17157288 14.2426407 13.4142136 15.6568542 12"></polygon>
+                                            </g>
+                                            </g>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </dt>
+                            <dd class="answer hidden mt-2 leading-snug text-gray-700">
+                                You can participate with a team of minium 2 members and maximum 4
+                            </dd>
+                        </div>
+                    </div>
+                    <div class="lg:w-1/2">
+                        <div class="question-and-answer select-none cursor-pointer border-2 mx-8 my-3 px-6 py-4 rounded-lg text-sm group">
+                            <dt class="question">
+                                <div class="flex justify-between">
+                                    <div class=" font-semibold">
+                                        Who can Participate?
+                                    </div>
+                                    <div>
+                                        <svg fill=currentColor class="question-chevron group-hover:bg-gray-500 h-5 block text-indigo-800 bg-gray-400 rounded-full p-1" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                            <g stroke="currentColor" stroke-width="1" fill=currentColor fill-rule="evenodd">
+                                            <g>
+                                            <polygon points="9.29289322 12.9497475 10 13.6568542 15.6568542 8 14.2426407 6.58578644 10 10.8284271 5.75735931 6.58578644 4.34314575 8"></polygon>
+                                            </g>
+                                            </g>
+                                        </svg>
+                                        <svg fill=currentColor class="question-chevron hidden group-hover:bg-gray-500 h-5 block  bg-gray-400 rounded-full p-1" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                            <g stroke="currentColor" stroke-width="1" fill=currentColor fill-rule="evenodd">
+                                            <g>
+                                            <polygon points="10.7071068 7.05025253 10 6.34314575 4.34314575 12 5.75735931 13.4142136 10 9.17157288 14.2426407 13.4142136 15.6568542 12"></polygon>
+                                            </g>
+                                            </g>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </dt>
+                            <dd class="answer hidden mt-2 leading-snug text-gray-700">
+                                Open For all.
+                            </dd>
+                        </div>
+                    </div>
+                    <!-- <div class="lg:w-1/2">
+                        <div class="question-and-answer select-none cursor-pointer border-2 mx-8 my-3 px-6 py-4 rounded-lg text-sm group">
+                            <dt class="question">
+                                <div class="flex justify-between">
+                                    <div class=" font-semibold">
+                                        Are there more Tailwind templates ?
+                                    </div>
+                                    <div>
+                                        <svg fill=currentColor class="question-chevron group-hover:bg-gray-500 h-5 block text-indigo-800 bg-gray-400 rounded-full p-1" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                            <g stroke="currentColor" stroke-width="1" fill=currentColor fill-rule="evenodd">
+                                            <g>
+                                            <polygon points="9.29289322 12.9497475 10 13.6568542 15.6568542 8 14.2426407 6.58578644 10 10.8284271 5.75735931 6.58578644 4.34314575 8"></polygon>
+                                            </g>
+                                            </g>
+                                        </svg>
+                                        <svg fill=currentColor class="question-chevron hidden group-hover:bg-gray-500 h-5 block  bg-gray-400 rounded-full p-1" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                            <g stroke="currentColor" stroke-width="1" fill=currentColor fill-rule="evenodd">
+                                            <g>
+                                            <polygon points="10.7071068 7.05025253 10 6.34314575 4.34314575 12 5.75735931 13.4142136 10 9.17157288 14.2426407 13.4142136 15.6568542 12"></polygon>
+                                            </g>
+                                            </g>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </dt>
+                            <dd class="answer hidden mt-2 leading-snug text-gray-700">
+                                Yes, we do, along with AliPay, PayTM, and Payoneer.
+                            </dd>
+                        </div>
+                    </div> -->
+                    <!-- <div class="lg:w-1/2">
+                        <div class="question-and-answer select-none cursor-pointer border-2 mx-8 my-3 px-6 py-4 rounded-lg text-sm group">
+                            <dt class="question">
+                                <div class="flex justify-between">
+                                    <div class=" font-semibold">
+                                        Is this template free for commercial use ?
+                                    </div>
+                                    <div>
+                                        <svg fill=currentColor class="question-chevron group-hover:bg-gray-500 h-5 block  bg-gray-400 rounded-full p-1" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                            <g stroke="currentColor" stroke-width="1" fill=currentColor fill-rule="evenodd">
+                                            <g>
+                                            <polygon points="9.29289322 12.9497475 10 13.6568542 15.6568542 8 14.2426407 6.58578644 10 10.8284271 5.75735931 6.58578644 4.34314575 8"></polygon>
+                                            </g>
+                                            </g>
+                                        </svg>
+                                        <svg fill=currentColor class="question-chevron hidden group-hover:bg-gray-500 h-5 block text-indigo-800 bg-gray-400 rounded-full p-1" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                            <g stroke="currentColor" stroke-width="1" fill=currentColor fill-rule="evenodd">
+                                            <g>
+                                            <polygon points="10.7071068 7.05025253 10 6.34314575 4.34314575 12 5.75735931 13.4142136 10 9.17157288 14.2426407 13.4142136 15.6568542 12"></polygon>
+                                            </g>
+                                            </g>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </dt>
+                            <dd class="answer hidden mt-2 leading-snug text-gray-700">
+                                Yes, we do, along with AliPay, PayTM, and Payoneer.
+                            </dd>
+                        </div>
+                    </div> -->
+                </dl>
+            </div>
+        </div>
+    </div>
+    <script
+        src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8="
+        crossorigin="anonymous"></script>
+    <script>
+        $('.question-and-answer').click(function() {
+            $(this).find(".answer").toggleClass("hidden")
+            $(this).find(".question-chevron").toggleClass("hidden")
+        })
+    </script>
+  <div class="REMOVE-THIS-ELEMENT-IF-YOU-ARE-USING-THIS-PAGE hidden treact-popup fixed inset-0 flex items-center justify-center" style="background-color: rgba(0,0,0,0.3);">
+    <div class="max-w-lg p-8 sm:pb-4 bg-white rounded shadow-lg text-center sm:text-left">
+      
+      <h3 class="text-xl sm:text-2xl font-semibold mb-6 flex flex-col sm:flex-row items-center">
+        <div class="bg-green-200 p-2 rounded-full flex items-center mb-4 sm:mb-0 sm:mr-2">
+          <svg class="text-green-800 inline-block w-5 h-5" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" stroke="currentColor" viewBox="0 0 24 24"><path d="M11 5.882V19.24a1.76 1.76 0 01-3.417.592l-2.147-6.15M18 13a3 3 0 100-6M5.436 13.683A4.001 4.001 0 017 6h1.832c4.1 0 7.625-1.234 9.168-3v14c-1.543-1.766-5.067-3-9.168-3H7a3.988 3.988 0 01-1.564-.317z"></path></svg>
+          </div>
+        Free TailwindCSS Component Kit!
+      </h3>  
+      <p>I recently released Treact, a <span class="font-bold">free</span> TailwindCSS Component Kit built with React.</p>
+      <p class="mt-2">It has 52 different UI components, 7 landing pages, and 8 inner pages prebuilt. And they are customizable!</p>
+      <div class="mt-8 pt-8 sm:pt-4 border-t -mx-8 px-8 flex flex-col sm:flex-row justify-end leading-relaxed">
+        <button class="close-treact-popup px-8 py-3 sm:py-2 rounded border border-gray-400 hover:bg-gray-200 transition duration-300">Close</button>
+        <a class="font-bold mt-4 sm:mt-0 sm:ml-4 px-8 py-3 sm:py-2 rounded bg-purple-700 text-gray-100 hover:bg-purple-900 transition duration-300 text-center" href="https://treact.owaiskhan.me" target="_blank">See Treact</a>
+      </div>
+    </div>
+  </div>
+
+  
+    
+    
+  </div>
+            
+  
+  <script src="js/vendor/modernizr-3.5.0.min.js"></script>
+  <script src="js/vendor/jquery-1.12.4.min.js"></script>
+  <!-- <script src="js/popper.min.js%2bbootstrap.min.js.pagespeed.jc.VqPKjPX3rN.js"></script> -->
+
+
+  <script src="js/owl.carousel.min.js%2bisotope.pkgd.min.js%2bajax-form.js%2bwaypoints.min.js%2bjquery.counterup.min.js.pagespeed.jc.S2NU-biZkA.js"></script>
+  <!-- <script src="js/imagesloaded.pkgd.min.js%2bscrollIt.js%2bjquery.scrollUp.min.js%2bwow.min.js.pagespeed.jc.WYvJ7upwau.js"></script> -->
+  
+  <script
+    defer
+    src="https://static.cloudflareinsights.com/beacon.min.js/v64f9daad31f64f81be21cbef6184a5e31634941392597"
+    integrity="sha512-gV/bogrUTVP2N3IzTDKzgP0Js1gg4fbwtYB6ftgLbKQu/V8yH2+lrKCfKHelh4SO3DPzKj4/glTO+tNJGDnb0A=="
+    data-cf-beacon='{"rayId":"6b8ddf89389331a5","token":"cd0b4b3a733644fc843ef0b185f98241","version":"2021.11.0","si":100}'
+    crossorigin="anonymous"
+  ></script>
 <footer class="site-footer">
 <div class="container">
 <div class="row mb-5">
 <div class="col-md-4">
 <h2 class="footer-heading text-uppercase mb-4">About Event</h2>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit aliquid quibusdam fugit architecto.</p>
+<p>
+  IOSD DTU brings to you the first ever edition of IOSD Winterlympics. The Event Comprises of two Competative programming contests and a 48hrs Hackthon
+</p>
 </div>
 <div class="col-md-3 ml-auto">
 <h2 class="footer-heading text-uppercase mb-4">Quick Links</h2>
 <ul class="list-unstyled">
-<li><a href="#">About Us</a></li>
-<li><a href="#">Speakers</a></li>
-<li><a href="#">Gallery</a></li>
 <li><a href="#">Contact Us</a></li>
+<p><p><a href="mailto:adityaharsh118@gmail.com">adityaharsh118@gmail.com</a></p></p>
+<p><a href="tel:+917488123552"></a>Ph. 7488123552</p>
 </ul>
 </div>
 <div class="col-md-4">
 <h2 class="footer-heading text-uppercase mb-4">Connect with Us</h2>
 <p>
-<a href="#" class="p-2 pl-0"><span class="icon-facebook"></span></a>
-<a href="#" class="p-2"><span class="icon-twitter"></span></a>
-<a href="#" class="p-2"><span class="icon-youtube"></span></a>
-<a href="#" class="p-2"><span class="icon-instagram"></span></a>
+<a href="https://www.facebook.com/iosddtu" class="p-2 pl-0"><i class="fab fa-facebook-f"></i></a>
+<a href="https://www.youtube.com/c/InternationalOrganisationofSoftwareDevelopers" class="p-2"><i class="fab fa-youtube"></i></a>
+<a href="https://www.instagram.com/iosdorg/?hl=en" class="p-2"><i class="fab fa-instagram"></i></a>
 </p>
 </div>
 </div>
 <div class="row">
 <div class="col-md-12 text-center">
 <div class="border-top pt-5">
-<p>
 
-Copyright &copy; <script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart text-primary" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-
-</p>
 </div>
 </div>
 </div>

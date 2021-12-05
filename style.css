@@ -473,6 +473,7 @@ body {
   z-index: 999;
   padding: 220px 0;
   background: url(images/COVERIMAGE.png) no-repeat;
+  background-attachment:fixed;
   background-size: 100% 100%;
 }
 
@@ -486,10 +487,12 @@ body {
   text-align: center;
   top: -25%;
 }
+
+
 .hero-content .entry-header h2 {
   padding: 50px;
   font-family: mountains;
-  font-size: 5rem !important;
+  font-size: 7rem !important;
   background: -webkit-linear-gradient(#00d0ff, #25ffbf);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -497,6 +500,9 @@ body {
 @media (max-width: 480px) {
   .hero-content .entry-header h2 {
     font-size: 40px !important;
+  }
+  .about-head {
+    display: no;
   }
 }
 .hero-content .entry-header .entry-meta-date {
@@ -541,7 +547,7 @@ body {
 
 [class^="icon-"], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'icomoon' !important;
+
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -5773,6 +5779,24 @@ img.mfp-img {
 }
 .ui-slider-vertical .ui-slider-range-max {
 	top: 0;
+}
+.white-button,
+.blue-button {
+  display: inline-block;
+  font-family: Whitney, "Open Sans", Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 11pt;
+  border-radius: 3px;
+  cursor: pointer;
+  height: 45px;
+  width: 250px;
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2);
+}
+
+.blue-button {
+  background-color: #7289da;
+  border: 2px solid #7289da;
+  color: #fff;
 }
 
 /* Component containers
