@@ -485,12 +485,12 @@ body {
 .hero-content .entry-header {
   position: relative;
   text-align: center;
-  top: -25%;
+  top: -35%;
 }
 
 
 .hero-content .entry-header h2 {
-  padding: 50px;
+  /* padding: 50px; */
   font-family: mountains;
   font-size: 7rem !important;
   background: -webkit-linear-gradient(#00d0ff, #25ffbf);
