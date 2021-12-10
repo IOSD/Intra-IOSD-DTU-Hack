@@ -473,14 +473,15 @@ body {
   padding: 220px 0;
   background: url(images/COVERIMAGE.png) no-repeat;
   background-attachment:fixed;
-  background-size: 100vw 100%;
+  background-size: 100% 100%;
   text-align: center;
 }
 
-@media only screen and (max-width: 600px) {
-  .hero-content{
-    /* background-image: none; */
-  }}
+@media only screen and (max-width: 1024px) {
+.hourglass {
+  display: none;
+}  
+}
 
 .hero-content .entry-header {
   position: relative;
@@ -489,10 +490,13 @@ body {
   /* left: -50px; */
   /* transform: translate(-30px, -50px); */
 }
-
+.hourglass {
+  width: 20vw;
+}
 .button-primary {
   display: flex;
   justify-content: space-around;
+  
 }
 @media (max-width: 600px){
   .button-primary {
@@ -534,6 +538,7 @@ body {
   .hero-content .entry-header .entry-meta-date {
     top: 60px;
   }
+  
 }
 .countdown-holder {
   min-width: 150px;
@@ -5793,15 +5798,16 @@ img.mfp-img {
 	top: 0;
 }
 .white-button,
-.blue-button {
+.blue-button,
+.devfolio-button {
   display: inline-block;
   font-family: Whitney, "Open Sans", Helvetica, sans-serif;
   font-weight: 400;
   font-size: 11pt;
   border-radius: 3px;
   cursor: pointer;
-  height: 45px;
-  width: 250px;
+  height: 44px;
+  width: 312px;
   box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2);
 }
 
