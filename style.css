@@ -519,7 +519,11 @@ body {
   .hero-content .entry-header h2 {
     font-size: 3.5rem !important;
   }
-}
+  .hero-content {
+    background-image: none;
+  }
+  }
+
 .hero-content .entry-header .entry-meta-date {
   position: absolute;
   width: 100%;
